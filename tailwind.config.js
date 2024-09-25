@@ -12,9 +12,13 @@ export default {
     },
     container:{
       center: true,
+      padding:{
+        lg:'178px'
+      }
     },
     fontFamily:{
-      'PT Serif' : ["PT Serif", 'serif'],
+      'PT-Serif' : ["PT Serif", 'serif'],
+      'inter'   : ["Inter", 'sans-serif']
     },
   },
   plugins: [],

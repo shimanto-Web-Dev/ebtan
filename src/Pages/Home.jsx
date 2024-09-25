@@ -1,12 +1,16 @@
 import React from 'react'
-import Banner from '../assets/Components/Banner/Banner'
-import Navbar from '../assets/Components/Navbar/Navbar'
+import Navbar from '../Components/Navbar/Navbar'
+import Banner from '../Components/Banner/Banner'
+import Choose from '../Components/Choose/Choose'
+import HandWash from '../Components/HandWash/HandWash'
 
 const Home = () => {
   return (
     <>
     <Navbar/>
     <Banner/>
+    <Choose/>
+    <HandWash/>
     </>
   )
 }
