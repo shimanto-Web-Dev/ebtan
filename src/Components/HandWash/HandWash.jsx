@@ -12,7 +12,7 @@ import CountUp from 'react-countup';
 const HandWash = () => {
   return (
     <>
-    <section className='handwash'>
+    <section className='handwash bg-[#ECEBE6]'>
             <div className="container">
                 <div className="row flex justify-between">
                     <div className="text mt-[95px]">
@@ -29,10 +29,10 @@ const HandWash = () => {
                                 <CommonButton/>
                                 <div className='flex gap-[3PX]'>
                                     <TbCurrencyTaka className='text-[30.75px] font-PT-Serif font-normal text-brand-color leading-[145%] mt-2'/>
-                                    <CountUp end={100} className='text-[30.75px] font-PT-Serif font-normal text-brand-color leading-[145%]'/>
+                                    <CountUp end={700} className='text-[30.75px] font-PT-Serif font-normal text-brand-color leading-[145%]'/>
                                 </div>
                             </div>
-                    </div>
+                        </div>
                     <div className='img'>
                         <img src="images/hadn_wash.png" alt="hand_wash" />
                     </div>
