@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-    <nav>
+    <nav className='px-5 lg:px-0'>
         <div className="container">
             <div className="menu-row flex justify-between pt-[33px] ">
                 <div className="img">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 {
                     show?
 
-                    <ul className='w-[400px] bg-brand-color flex flex-col items-center gap-6 py-5 rounded-xl absolute top-10 right-0'>
+                    <ul className='w-[250px] lg:w-[400px] bg-brand-color flex flex-col items-center gap-6 py-5 rounded-xl absolute top-10 right-0'>
                         <li><Link className='text-xl text-white font-semibold] hover:text-black duration-500  active:text-black'>Home</Link></li>
                         <li><Link className='text-xl text-white font-semibold] hover:text-black duration-500  active:text-black'>About</Link></li>
                         <li><Link className='text-xl text-white font-semibold] hover:text-black duration-500  active:text-black'>Contact</Link></li>

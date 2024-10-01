@@ -12,17 +12,17 @@ const Banner = () => {
     <>
     <section className='mt-[97.56px]'>
         <div className="container">
-            <div className="row flex justify-between">
+            <div className="row flex-wrap lg:flex px-5 justify-between">
                 <div className="banner-img pl-[40px] ">
                     <img src="images/bannner_img.png" alt="banner" />
                 </div>
-                <div className="banner-text pt-[50.44px]">
+                <div className="banner-text lg:pt-[50.44px] pt-[30px]">
                     <Commonhead commonHeadText={'Normal to oily skin'}/>
-                    <h1 className='lg:w-[540px] text-[72px] font-PT_Serif font-normal text-[#333333] py-5 leading-[110%]'>Men’s Sunscreen
+                    <h1 className='lg:w-[540px] w-full text-[36px] lg:text-[72px] font-PT_Serif font-normal text-[#333333] py-5 leading-[110%]'>Men’s Sunscreen
                     hand & body</h1>
-                    <p className='w-[526px] text-lg font-inter font-normal text-[#A0A79A] leading-[145%] mb-[64px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                    <p className='w-full lg:w-[526px] text-lg font-inter font-normal text-[#A0A79A] leading-[145%] mb-[30px] lg:mb-[64px]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                     <CommonButton/>
-                    <div className='flex gap-[49px]'>
+                    <div className='flex-wrap  lg:flex gap-[49px]'>
                     <Review ReviewIcon={<IoStarSharp/>} ReviewCount={4} Plus={',6'} reviewText={'Rating'}/>
                     <Review ReviewIcon={<FaShoppingBag />} ReviewCount={200} Plus={'+'} reviewText={'Product solds'}/>
                     <Review ReviewIcon={<FaFaceSmile/>} ReviewCount={99} Plus={'+'} reviewText={'Review'}/>
